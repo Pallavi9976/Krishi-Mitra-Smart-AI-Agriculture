@@ -45,7 +45,7 @@ Agmarknet API (market price support)
 
 This project was developed during a short-term AI internship at CDAC Patna under the guidance of mentors and in collaboration with team members.
 
-Team: Harshit Kashyap, Ayush Kumar, Pallavi Bharti, Sonu Kumar
+Team: Pallavi Bharti,Harshit Kashyap, Ayush Kumar, Sonu Kumar
 
 📥 Dataset Access
 The datasets used in this project (soil images) are available on Google Drive.
