@@ -141,31 +141,10 @@ Krishi-Mitra-Smart-AI-Agriculture/
 │   └── soil_images/           
 │
 ├── requirements.txt
-├── LICENSE
+
 ├── README.md
 └── .gitignore
 
-📊 Dataset Information
-
-The project uses two types of datasets for its main components.
-
-Crop Recommendation Dataset
-
-The crop dataset contains tabular agricultural data used by the crop recommendation model.
-
-- Purpose: Training and evaluating the crop recommendation model.
-- Data type: Structured/tabular data.
-- Required features: Must match the features expected by the existing model.
-- Dataset access: 
-
-Soil Image Dataset
-
-The soil image dataset contains images used by the soil classification model.
-
-- Purpose: Training and evaluating the soil image classifier.
-- Data type: Images organized according to the dataset's class labels.
-- Required structure: Must match the folder and preprocessing requirements of the existing code.
-- Dataset access: 
 
 ⚙️ Installation and Setup
 
