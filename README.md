@@ -19,6 +19,7 @@ The project focuses on two main machine learning components:
 
 A third component, market price forecasting using LSTM, is considered a potential extension and should be treated as a future feature unless its implementation is completed and verified.
 
+
 The overall goal is to demonstrate how AI techniques can contribute to smarter and more informed agricultural decision-making.
 
 🎯 Problem Statement
@@ -41,7 +42,7 @@ Krishi Mitra explores AI-based approaches to crop recommendation and soil image 
 - To build a CNN-based approach for soil image classification.
 - To organize agricultural datasets for model training and evaluation.
 - To understand how AI can support agricultural decision-making.
-- To explore time-series forecasting techniques for future market price prediction.
+
 
 🧠 Key Features
 
@@ -71,20 +72,6 @@ Key points:
 
 The model's output represents image-based classification; it should not be treated as a complete laboratory soil analysis.
 
-3. Market Price Forecasting — Future Enhancement
-
-Long Short-Term Memory (LSTM) networks can be used for time-series forecasting of agricultural market prices.
-
-This component is considered a future enhancement unless a working implementation and suitable historical price dataset are available in the repository.
-
-Potential capabilities include:
-
-- Analyzing historical market price data.
-- Learning patterns in time-series observations.
-- Exploring future price estimates for agricultural produce.
-
-Forecast accuracy would depend on data quality, market fluctuations, and model evaluation.
-
 🏗️ Model Architecture
 
 Crop Recommendation — Feedforward Neural Network
@@ -111,8 +98,6 @@ The general workflow is:
 
 Technology: Python and the deep learning framework actually used by the implementation.
 
-The precise layer configuration, number of classes, input dimensions, and evaluation results should be documented after checking the source code.
-
 🛠️ Technologies Used
 
 Technology| Purpose
@@ -128,22 +113,23 @@ FNN| Crop recommendation approach
 
 📂 Project Structure
 
-The following structure is based on the existing README. Confirm it against the actual GitHub repository before uploading.
 
 Krishi-Mitra-Smart-AI-Agriculture/
 │
-├── model/
-│   ├── crop_recommendation_model.py
-│   └── soil_image_classifier.py
+├── Final_Code_Combined.ipynb
+│   └── Combined soil classification
+│       and crop recommendation workflow
 │
-├── data/
-│   ├── crop_dataset/          
-│   └── soil_images/           
+├── project_crop_iimageipynb_cdac (1).py
+│   └── Soil image classification code
 │
-├── requirements.txt
+├── project_cropipynb_cdac_py.ipynb
+│   └── Crop recommendation model
+│
+└── README.md
+    └── Project documentation
 
-├── README.md
-└── .gitignore
+
 
 
 ⚙️ Installation and Setup
@@ -156,19 +142,7 @@ Step 2: Open the Project Directory
 
 cd Krishi-Mitra-Smart-AI-Agriculture
 
-Step 3: Create a Virtual Environment (Recommended)
-
-python -m env v env
-
-Activate it on Windows:
-
-v env\Scripts\activate
-
-On macOS or Linux:
-
-source veno/bin/activate
-
-Step 4: Install Dependencies
+Step 3: Install Dependencies
 
 pip install -r requirements.txt
 
@@ -199,7 +173,7 @@ The project can be extended in several directions:
 - Deployment: Explore deployment as a web-based agricultural decision-support application.
 - Dataset Improvement: Test the models on diverse, representative datasets to assess generalization.
 
-These are proposed enhancements, not claims that all these features are currently implemented.
+
 
 👩‍💻 Team Members
 
@@ -219,8 +193,6 @@ We are grateful to our mentors, trainers, and team members for their guidance, c
 This project provided an opportunity to explore Python programming, machine learning, deep learning, and their potential applications in agriculture.
 
 📄 License
-
-This project includes a License file, as indicated in the existing repository. 
 
 Project: Krishi Mitra – AI-Based Smart Agriculture Assistant
 Domain: Artificial Intelligence, Machine Learning, Deep Learning, and Agriculture
